@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Genarator</title>
+</head>
+<body>
+  <h1>MEME GENERATOR</h1>
+
+  <div class="center">
+    <label for="">Texto:</label>
+    <input id="text-input" type="text" maxlength="60">
+  </div>
+
+  <div class="center">
+    <label id="fileInput" for="">Foto:</label>
+    <input type="file" id="meme-insert" accept="image/*">
+  </div>
+
+  <div id="meme-image-container">
+    <img id="meme-image" src="">
+    <p id="meme-text"></p>
+  </div>
+
+  <button id="fire">Fire</button>
+  <button id="water">Water</button>
+  <button id="earth">Earth</button>
+
+  <div id="img-container">
+    <div class='box'><img id="meme-1" src="imgs/meme1.png" width="150px" height="150px" alt="Seya"></div>
+    <div class='box'><img id="meme-2" src="imgs/meme2.png" width="150px" height="150px" alt="Tai"></div>
+    <div class='box'><img  id="meme-3"src="imgs/meme3.png" width="150px" height="150px" alt="Goku"></div>
+    <div class='box'><img id="meme-4" src="imgs/meme4.png" width="150px" height="150px" alt="Luffy"></div>
+  </div>
+
+  
+<script src="script.js"></script>
+</body>
+</html>
