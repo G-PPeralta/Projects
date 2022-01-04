@@ -1,4 +1,4 @@
-Some of the projects developed during my learning period of front-end tecnologies, with focus on HTML, CSS, Javascript and the framework ReactJS.
+Some of the projects developed during my learning period of front-end tecnologies, with focus on HTML, CSS, Javascript and ReactJS.
 
 <div align="center">
   <img align="center" alt="linux" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" style="max-width: 100%;">
